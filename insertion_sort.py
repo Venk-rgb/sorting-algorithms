@@ -12,7 +12,7 @@ def insertion_sort(nums):
 my_list = []
 num_elements = int(input("How many elements will you enter? "))
 for _ in range(num_elements):
-    element = input("Enter an element: ")
+    element = int(input("Enter an element: "))
     my_list.append(element)
 
 print("Unsorted list")
